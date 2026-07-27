@@ -1,4 +1,4 @@
-const data = {
+const Data = {
   name: "Satyam Kumar Verma",
   tag: "The only thing I know is how to make excuses.",
   shortBio:
@@ -23,4 +23,4 @@ const data = {
   ],
 };
 
-export default data;
+export default Data;
