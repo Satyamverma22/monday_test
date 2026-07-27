@@ -31,3 +31,27 @@
 .navbar-link:hover {
   color: #22d3ee;
 }
+
+.about{
+    background-color: #8ba8ec;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    color: rgb(0, 85, 255);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin
+
+    
+}
+.about p{
+    color: white;
+}
+.about link{
+    color: white;
+    text-decoration: none;
+    back
+}
