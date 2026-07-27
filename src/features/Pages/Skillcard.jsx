@@ -1,10 +1,10 @@
-import React from 'react'
+import "./skillcard.css";
 
 const Skillcard = ({ skill }) => {
   return (
-    <div>
-      <h1>{skill.name}</h1>
-      <p>{skill.level}</p>
+    <div className="skill-card">
+      <h1 className="skill-name">{skill.name}</h1>
+      <p className="skill-level">{skill.level}</p>
     </div>
   );
 };

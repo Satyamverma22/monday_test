@@ -26,15 +26,19 @@ const Data = {
 ],
 
   projects: [
-    {
-      id: 1,
-      name: "Setu",
-    },
-    {
-      id: 2,
-      name: "ChatGPT-2",
-    },
-  ],
+  {
+    id: 1,
+    name: "Setu",
+    bio: "A knowledge preservation platform for sharing practical experience.",
+    technologies: ["React", "FastAPI", "MongoDB"],
+  },
+  {
+    id: 2,
+    name: "ChatGPT-2",
+    bio: "An AI-based chat application for generating user responses.",
+    technologies: ["React", "Node.js", "Express"],
+  },
+],
 };
 
 export default Data;
