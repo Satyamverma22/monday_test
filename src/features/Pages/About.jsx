@@ -1,25 +1,27 @@
 import { Link } from "react-router";
 import Data from "../../data/Data.js";
 import "./About.css";
-import Navbar from "../components/Navbar.jsx";
+import Skillcard from "./Skillcard.jsx";
 
 const About = () => {
   return (
     < >
-        <Navbar />
-        <div className="about">
+        <nav className="nav">
+            <h1>{Data.name}</h1>
+            <Link to="/about" className="navbar-link">About Me</Link>
 
-      <h1 className="name">{Data.name}</h1>
+            <Link to="/contact" className="navbar-link">Contact</Link>
+        </nav>
 
-      <Link to="/contact" className="about-link">
-        Contact Me
-      </Link>
+        <div className="hero">
+            <h1>{Data.fullBio}</h1>
+        </div>
 
-      <p className="tag">I am a Full-Stack developer</p>
-
-
-      
-    </div>
+        <div className="skill-section">
+            {Data.map((skills, index)=>(
+                <Skillcard key={index} skill={skills} />
+            ))}
+        </div>
     </>
   );
 };

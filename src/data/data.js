@@ -6,10 +6,24 @@ const Data = {
   fullBio:
     "I do not have a full bio. I am just repeating the same thing again and again: the only thing I know is how to make excuses.",
     
-  skills: {
-    frontend: "React",
-    dsa: "Nothing",
+  skills: [
+  {
+    name: "React",
+    level: "Intermediate",
   },
+  {
+    name: "JavaScript",
+    level: "Intermediate",
+  },
+  {
+    name: "Node.js",
+    level: "Beginner",
+  },
+  {
+    name: "Java DSA",
+    level: "Beginner",
+  },
+],
 
   projects: [
     {
