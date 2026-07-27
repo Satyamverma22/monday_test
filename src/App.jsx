@@ -1,22 +1,21 @@
-import { Routes, Route } from 'react-router-dom'
-import Profile from './features/pages/Profile'
-import Courses from './features/pages/Courses'
-import Home from './features/pages/Home'
-import CourseDetails from './features/pages/CourseDetails'
-import Navbar from './features/components/Navbar'
+import { Routes, Route } from "react-router";
+import Navbar from "./features/components/Navbar";
+import Home from "./features/Pages/Home";
+import About from "./features/Pages/About";
+import Contact from "./features/Pages/Contact";
 
 const App = () => {
   return (
     <>
       <Navbar />
+
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/profile' element={<Profile />} />
-        <Route path='/courses' element={<Courses />} />
-        <Route path='/courses/:id' element={<CourseDetails />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
