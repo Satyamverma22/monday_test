@@ -6,28 +6,26 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <main className="home">
-      <section className="home-content">
-        <div className="home-text">
-          <p className="home-greeting">Hello, I am</p>
+    <main className="container">
+      <section className="content">
+        <div className="text">
+          <p className="greeting">Hello, I am</p>
 
-          <h1 className="home-title">{Data.name}</h1>
+          <h1 className="title">{Data.name}</h1>
 
-          <h3 className="home-bio">
-            {Data.shortBio}
-          </h3>
+          <h3 className="bio">{Data.shortBio}</h3>
 
           <button
-            className="home-button"
+            className="button"
             onClick={() => navigate("/about")}
           >
             Know More
           </button>
         </div>
 
-        <div className="home-image-container">
+        <div className="image-box">
           <img
-            className="home-image"
+            className="image"
             src="https://www.shutterstock.com/shutterstock/photos/2286554497/display_1500/stock-photo-random-pictures-cute-and-funny-2286554497.jpg"
             alt={`${Data.name} profile`}
           />
