@@ -2,9 +2,9 @@ const Data = {
   name: "Satyam Kumar Verma",
   tag: "The only thing I know is how to make excuses.",
   shortBio:
-    "The only thing I know is how to make excuses; apart from that, I do nothing.",
+    "good morning everyone today is monday yesterday was sunday and tomorrow will be tuesday",
   fullBio:
-    "I do not have a full bio. I am just repeating the same thing again and again: the only thing I know is how to make excuses.",
+    "I do not have a full bio. I am just repeating the same thing again and again: Good morning everyone today is monday yesterday was sunday and tomorrow will be tuesday",
     
   skills: [
   {
